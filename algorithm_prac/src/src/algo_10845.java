@@ -1,9 +1,12 @@
 package src;
 
 import java.util.Queue;
+import java.util.Scanner;
 
 public class algo_10845 {
 	public static void main(String[] args) {
+		Scanner order_size = new Scanner(System.in);
+		
 		
 	}
 }
