@@ -9,8 +9,9 @@ public class algo_1149_dp {
 //		
 //		System.out.println(random);
 		Scanner sc = new Scanner(System.in);
-		
 		int input_num = sc.nextInt();
+		
+		int list[][];
 		
 		
 		for(int i = 0; i < input_num; i++) {
