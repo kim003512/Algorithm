@@ -11,4 +11,4 @@
 - 2225번 - dp (https://www.acmicpc.net/problem/2225)
 - 11726번 - dp (https://www.acmicpc.net/problem/11726)
 - 9461번 - dp (https://www.acmicpc.net/problem/9461)
--2293번 - dp (https://www.acmicpc.net/problem/2293)
+- 2293번 - dp (https://www.acmicpc.net/problem/2293)
