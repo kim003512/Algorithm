@@ -9,13 +9,13 @@ public class algo_1932_dp {
 		
 		int n = sc.nextInt();
 		
-		int[][] tri = new int[n][n];
+		int[][] tri = new int[n+1][n+1];
 		
-		int num = 1;
+		int tmp=0, sum=0;
 		
-		for(int i = 0; i<n; i++) {
-			for(int j=1; j <num; j++) {
-				
+		for(int i = 1; i<=n; i++) {
+			for(int j=1; j<=i; j++) {
+				tri[i][j] = sc.nextInt();
 			}
 		}
 	}
