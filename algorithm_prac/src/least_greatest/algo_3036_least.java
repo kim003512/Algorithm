@@ -14,10 +14,10 @@ public class algo_3036_least {
 
         for (int i = 1; i < n; i++) {
             String answer = "";
-            int gcdNum = gcd(radius[i], radius[0]);
-            answer += radius[0] / gcdNum;
+            int num = gcd(radius[i], radius[0]);
+            answer += radius[0] / num;
             answer += "/";
-            answer += radius[i] / gcdNum;
+            answer += radius[i] / num;
 
             System.out.println(answer);
         }
