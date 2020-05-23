@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//https://www.acmicpc.net/problem/11724
 public class algo_1260 {
 
 	private static int visit[];
