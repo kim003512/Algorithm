@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 public class algo_1260 {
 
 	private static int visit[];
-    private static int [][]graph;
+    private static int [][]gra;
     private static int cnt, N, M;
 
     public static void main(String[] args) throws IOException {
@@ -18,14 +18,14 @@ public class algo_1260 {
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
         visit = new int[N+1];
-        graph = new int[N+1][N+1];
+        gra = new int[N+1][N+1];
 
         for (int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());
             int x = Integer.parseInt(st.nextToken());
             int y = Integer.parseInt(st.nextToken());
 
-            graph[x][y] = graph[y][x] = 1;
+            gra[x][y] = gra[y][x] = 1;
         }
         cnt=0;
         for (int i = 1; i <= N ; i++) { //i is a index of node to visit
@@ -41,7 +41,7 @@ public class algo_1260 {
         visit[node] = cnt;
 
         for (int i = 1; i <= N ; i++) {
-            if(graph[node][i] ==1 && visit[i] ==0)
+            if(gra[node][i] ==1 && visit[i] ==0)
                 dfs(i);
         }
     }
