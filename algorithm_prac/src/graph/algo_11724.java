@@ -26,7 +26,7 @@ public class algo_11724 {
             graph[x][y] = graph[y][x] = 1;
         }
         cnt=0;
-        for (int i = 1; i <= N ; i++) { //i is a index of node to visit
+        for (int i = 1; i <= N ; i++) { //i = 방문하는 노드 인덱스
             if(visit[i] == 0){
                 cnt++;
                // dfs(i);
